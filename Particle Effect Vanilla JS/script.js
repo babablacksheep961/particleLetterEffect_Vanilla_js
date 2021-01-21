@@ -18,8 +18,8 @@ window.addEventListener('mousemove',function(event){
 });
 
 ctx.fillStyle = 'white';
-ctx.font = '30px Verdana';
-ctx.fillText('NICHOLAS',10,40);
+ctx.font = '25px Verdana';
+ctx.fillText('NICHOLAS',5,40);
  const textCoordinates = ctx.getImageData(0, 0, 200, 200);
 
  class Particle {
